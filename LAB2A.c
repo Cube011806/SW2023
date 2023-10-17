@@ -118,6 +118,8 @@ int main(void)
 	  BSP_LCD_SetTextColor(LCD_COLOR_WHITE);
 	  BSP_LCD_SetFont(&Font20);
 	  BSP_LCD_DisplayStringAtLine(4, (uint8_t*)"   Hello World! ");
+	  BSP_LCD_DrawRect(100, 100, 50, 50);
+	  BSP_LCD_FillRect(100, 100, 50, 50);
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
