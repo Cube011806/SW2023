@@ -1,0 +1,13 @@
+czas zmiany sygnału z niskiego na wysoki i na odwrót: 20 ns
+dodawanie int: 29ns - 20ns = 9ns
+dodawanie double: 75ns - 20ns = 55ns
+mnożenie double: 58ns - 20ns = 38ns
+dzielenie double: 330ns - 20 ns = 310ns
+sinus double: 1166ns - 20ns = 1146ns 
+
+Bez wspomagania
+czas zmiany sygnału z niskiego na wysoki i na odwrót: 20 ns
+dodawanie double: 75ns - 20ns = 55ns
+mnożenie double: 58ns - 20ns = 38ns
+dzielenie double: 330ns - 20 ns = 310ns
+sinus double:  1166ns - 20ns = 1146ns 
